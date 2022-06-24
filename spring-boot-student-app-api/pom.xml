@@ -71,8 +71,6 @@
 				</executions>
 				<configuration>
 					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
-					<username>alexsky123</username>
-					<password></password>
 					<repository>registry.hub.docker.com/alexsky123/${project.artifactId}</repository>
 					<tag>${project.version}</tag>
 					<buildArgs>
